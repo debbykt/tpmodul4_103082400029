@@ -10,6 +10,7 @@ namespace tpmodul4_103082400029
     {
         static void Main(string[] args)
         {
+            //KodePos
             KodePos kode = new KodePos();
 
             Console.Write("Masukkan kelurahan : ");
@@ -27,7 +28,7 @@ namespace tpmodul4_103082400029
             }
 
 
-
+            //DoorMachinne
             DoorMachine pintu = new DoorMachine();
 
             pintu.Buka();
