@@ -26,6 +26,13 @@ namespace tpmodul4_103082400029
                 Console.WriteLine("Kelurahan tidak ditemukan");
             }
 
+
+
+            DoorMachine pintu = new DoorMachine();
+
+            pintu.Buka();
+            pintu.Kunci();
+
             Console.ReadLine();
         }
     }
